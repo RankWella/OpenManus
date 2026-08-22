@@ -1,0 +1,9 @@
+[llm]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "dummy"
+
+[daytona]
+api_key = "dummy_key"
+server_url = "http://localhost:3986"
+target = "local"
