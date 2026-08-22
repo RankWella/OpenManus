@@ -10,4 +10,4 @@ COPY . .
 
 RUN uv pip install --system -r requirements.txt
 
-CMD ["sh", "-c", "uvicorn app.web.app:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD ["sh", "-c", "chainlit run app/main.py --host 0.0.0.0 --port ${PORT:-8000}"]
