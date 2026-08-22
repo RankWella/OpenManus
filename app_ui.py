@@ -18,4 +18,3 @@ with st.spinner("OpenManus is running..."):
     asyncio.run(run_manus())
 
 st.success("Task completed!")
-
