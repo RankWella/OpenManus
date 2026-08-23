@@ -5,5 +5,8 @@ api_key = "dummy"
 
 [daytona]
 api_key = "dummy_key"
+daytona_api_key = "dummy_key"
 server_url = "http://localhost:3986"
+daytona_server_url = "http://localhost:3986"
 target = "local"
+daytona_target = "local"
